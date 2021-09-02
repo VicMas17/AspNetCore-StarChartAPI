@@ -106,9 +106,7 @@ namespace StarChart.Controllers
 
             _context.CelestialObjects.RemoveRange(co);
             _context.SaveChanges();
-
             return NoContent();
-
         }
         
     }
